@@ -47,8 +47,8 @@ class ContactoControlador {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'ixxa666@gmail.com';        // Cambia por tu correo
-            $mail->Password = 'gyrq uify smsj nhgl';      // Cambia por tu App Password
+            $mail->Username = '';        // Cambia por tu correo
+            $mail->Password = '';      // Cambia por tu App Password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
 
